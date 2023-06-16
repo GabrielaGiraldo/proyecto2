@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 2</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./modales.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="info">Informacion</a>
+    </header>
+    <section class="modal">
+        <div class="modal_container">
+            <img src="./javas.png" alt="si" class="modal_imagen">
+            <h2 class="modal_titulo">Informacion</h2>
+            <p class="modal_parrafo">Los botones dentro de esta página te permiten 
+                ver algunos de los diferentes metodos que 
+                tiene un arreglo en JavaScript</p>
+            <a href="#" class="modal_cerrar">Cerrar</a>
+        </div>
+    </section>
+    <div class="main">
+        <a href="#" class="info_pu">Push</a>
+        <a href="#" class="info_p">Pop</a>
+        <a href="#" class="info_un">Unshift</a>
+
+        <a href="#" class="info_m">Map</a>
+        <a href="#" class="info_f">Filter</a>
+        <a href="#" class="info_fe">ForEach</a>
+
+        <a href="#" class="info_fi">Find</a>
+        <a href="#" class="info_so">Sort</a>
+        <a href="#" class="info_sm">Some</a>
+
+        <a href="#" class="info_e">Every</a>
+        <a href="#" class="info_co">Concat</a>
+        <a href="#" class="info_in">Includes</a>
+
+        <a href="#" class="info_jo">Join</a>
+        <a href="#" class="info_r">Reduce</a>
+        <a href="#" class="info_iof">IndexOf</a>
+
+        <a href="#" class="info_sh">Shift</a>
+        <a href="#" class="info_sl">Slice</a>
+        <a href="#" class="info_re">Reverse</a>
+
+        <a href="#" class="info_sp">Splice</a>
+        <a href="#" class="info_li">LastIndexOf</a>
+        <a href="#" class="info_fr">From</a>
+
+        <section class="modal_pop">
+            <div class="pop">
+                <h2 class="mp_titulo">Pop</h2>
+                <p class="mp_infor">El método pop() elimina el último elemento de un array. 
+                    Este método cambia la longitud del array.</p>
+                <div id="arrayContainer_p"></div>
+                <button id="addButton_p">Pop!</button>
+                <br>
+                <a href="#" class="mp_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_push">
+            <div class="push">
+                <h2 class="mpu_titulo">Push</h2>
+                <p class="mpu_infor">El método push() añade uno o más elementos al final de un array y 
+                    devuelve la nueva longitud del array.</p>
+                <div id="arrayContainer_pu"></div>
+                <input type="text" id="contentInput_pu">
+                <button id="addButton_pu">Push!</button>
+                <br>
+                <a href="#" class="mpu_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_unshift">
+            <div class="unshift">
+                <h2 class="mun_titulo">Unshift</h2>
+                <p class="mun_infor">El método unshift() agrega uno o más elementos al inicio del array, y 
+                    devuelve la nueva longitud del array.</p>
+                <a href="#" class="mun_cerrar">Cerrar</a>
+            </div>
+        </section>
+
+        <section class="modal_map">
+            <div class="map">
+                <h2 class="m_titulo">Map</h2>
+                <p class="m_infor">map() es un método incorporado en los arreglos, para iterar a través de los elementos dentro de una colección de arreglos en JavaScript.</p>
+                <a href="#" class="m_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_filter">
+            <div class="filter">
+                <h2 class="f_titulo">Filter</h2>
+                <p class="f_infor">El método filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.</p>
+                <a href="#" class="f_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_foreach">
+            <div class="foreach">
+                <h2 class="fe_titulo">ForEach</h2>
+                <p class="fe_infor">forEach es un método de las arrays de JavaScript que se utiliza para iterar sobre los elementos de un array y ejecutar una función determinada en cada uno de ellos.</p>
+                <a href="#" class="fe_cerrar">Cerrar</a>
+            </div>
+        </section>
+
+        <section class="modal_find">
+            <div class="find">
+                <h2 class="fi_titulo">Find</h2>
+                <p class="fi_infor">El método find ejecuta la función callback una vez por cada índice del array hasta que encuentre uno en el que el callback devuelva un valor verdadero. </p>
+                <a href="#" class="fi_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_sort">
+            <div class="sort">
+                <h2 class="so_titulo">Sort</h2>
+                <p class="so_infor">El método sort() ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado. La ordenación no es necesariamente estable.</p>
+                <a href="#" class="so_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_some">
+            <div class="some">
+                <h2 class="sm_titulo">Some</h2>
+                <p class="sm_infor">El método some() comprueba si al menos un elemento del array cumple con la condición implementada por la función proporcionada.</p>
+                <a href="#" class="sm_cerrar">Cerrar</a>
+            </div>
+        </section>
+
+        <section class="modal_every">
+            <div class="every">
+                <h2 class="e_titulo">Every</h2>
+                <p class="e_infor">El método every ejecuta la función callback dada una vez por cada elemento presente en el arreglo hasta encontrar uno que haga retornar un valor falso a callback. Si no se encuentra tal elemento, el método every de inmediato retorna false .</p>
+                <a href="#" class="e_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_concat">
+            <div class="concat">
+                <h2 class="co_titulo">Concat</h2>
+                <p class="co_infor">El método concat() se usa para unir dos o más arrays. Este método no cambia los arrays existentes, sino que devuelve un nuevo array.</p>
+                <a href="#" class="co_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_includes">
+            <div class="includes">
+                <h2 class="in_titulo">Includes</h2>
+                <p class="in_infor">El método includes() determina si una cadena de texto puede ser encontrada dentro de otra cadena de texto, devolviendo true o false según corresponda.</p>
+                <a href="#" class="in_cerrar">Cerrar</a>
+            </div>
+        </section>
+
+        <section class="modal_join">
+            <div class="join">
+                <h2 class="jo_titulo">Join</h2>
+                <p class="jo_infor">El método join() une todos los elementos de una matriz (o un objeto similar a una matriz) en una cadena y devuelve esta cadena.</p>
+                <a href="#" class="jo_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_reduce">
+            <div class="reduce">
+                <h2 class="r_titulo">Reduce</h2>
+                <p class="r_infor">El método reduce() ejecuta una función reductora sobre cada elemento de un array, devolviendo como resultado un único valor.</p>
+                <a href="#" class="r_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_indexof">
+            <div class="indexof">
+                <h2 class="iof_titulo">IndexOf</h2>
+                <p class="iof_infor">El método indexOf() devuelve el índice, dentro del objeto String que realiza la llamada, de la primera ocurrencia del valor especificado, comenzando la búsqueda desde indiceDesde ; o -1 si no se encuentra dicho valor.</p>
+                <a href="#" class="iof_cerrar">Cerrar</a>
+            </div>
+        </section>
+
+        <section class="modal_shift">
+            <div class="shift">
+                <h2 class="sh_titulo">Shift</h2>
+                <p class="sh_infor">El método shift elimina el elemento en el índice cero y desplaza los valores consecutivos hacia abajo, devolviendo el valor eliminado.</p>
+                <a href="#" class="sh_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_slice">
+            <div class="slice">
+                <h2 class="sl_titulo">Slice</h2>
+                <p class="sl_infor">El método slice() devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido). El array original no se modificará.</p>
+                <a href="#" class="sl_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_reverse">
+            <div class="reverse">
+                <h2 class="re_titulo">Reverse</h2>
+                <p class="re_infor">El método reverse() invierte el orden de los elementos de un array in place. El primer elemento pasa a ser el último y el último pasa a ser el primero.</p>
+                <a href="#" class="re_cerrar">Cerrar</a>
+            </div>
+        </section>
+
+        <section class="modal_splice">
+            <div class="splice">
+                <h2 class="sp_titulo">Splice</h2>
+                <p class="sp_infor">El método splice() cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.</p>
+                <a href="#" class="sp_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_lastindexof">
+            <div class="lastindexof">
+                <h2 class="li_titulo">LastIndexOf</h2>
+                <p class="li_infor">El método lastIndexOf() devuelve el último índice en el que un cierto elemento puede encontrarse en el arreglo, ó -1 si el elemento no se encontrara. El arreglo es recorrido en sentido contrario, empezando por el índice fromIndex .</p>
+                <a href="#" class="li_cerrar">Cerrar</a>
+            </div>
+        </section>
+        <section class="modal_from">
+            <div class="from">
+                <h2 class="fr_titulo">From</h2>
+                <p class="fr_infor">El método Array. from() crea una nueva instancia de Array a partir de un objeto iterable.</p>
+                <a href="#" class="fr_cerrar">Cerrar</a>
+            </div>
+        </section>    
+    </div>
+    <script src="./index.js"></script>
+    <script src="./modales.js"></script>
+</body>
+</html>
